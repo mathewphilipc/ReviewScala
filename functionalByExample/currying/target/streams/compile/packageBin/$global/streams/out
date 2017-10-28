@@ -1,0 +1,7 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/mathew/ScalaReview/functionalByExample/currying/target/scala-2.12/currying_2.12-0.1-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	curry.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/mathew/ScalaReview/functionalByExample/currying/target/scala-2.12/classes/curry.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	curry$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/mathew/ScalaReview/functionalByExample/currying/target/scala-2.12/classes/curry$.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
