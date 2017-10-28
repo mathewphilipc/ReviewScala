@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/mathew/ScalaReview/functionalByExample/basicFunctional/sums.scala:10:8: recursive method sumInts needs result type[0m
+[0m[[0m[31merror[0m] [0m[0m			a + sumInts(a+1, b)[0m
+[0m[[0m[31merror[0m] [0m[0m			    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
