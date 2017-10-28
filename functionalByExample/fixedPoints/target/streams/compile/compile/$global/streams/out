@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/mathew/ScalaReview/functionalByExample/fixedPoints/fixedPoints.scala:16:12: ':' expected but ')' found.[0m
+[0m[[0m[31merror[0m] [0m[0m	def sqrt(x) = fixedPoint(y => x / y)[0m
+[0m[[0m[31merror[0m] [0m[0m	          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mathew/ScalaReview/functionalByExample/fixedPoints/fixedPoints.scala:17:1: identifier expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
