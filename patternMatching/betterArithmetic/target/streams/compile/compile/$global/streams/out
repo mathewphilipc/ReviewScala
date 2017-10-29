@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/mathew/ScalaReview/patternMatching/betterArithmetic/betterArithmetic.scala:13:11: value log is not a member of object Console[0m
+[0m[[0m[31merror[0m] [0m[0m		Console.log(" comes out to " + sumExpr.eval)[0m
+[0m[[0m[31merror[0m] [0m[0m		        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
