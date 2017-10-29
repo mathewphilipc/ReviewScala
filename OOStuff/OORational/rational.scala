@@ -4,7 +4,8 @@ object rationalStuff {
 		println("Implement rationals")
 		println("Consider the rational number " + top + "/" + bottom + ".")
 		println("In reduced form this becomes " + testNumer + "/" + testDenom + ".")
-		println("With the overriden toString method: " + testRational.toString())
+		println("With the overriden toString method: " + testRational)
+		println("It squares to " + testRational.square)
 	}
 	class Rational(n: Int, d: Int) {
 		// rational numbers have the form n/d for d !== 0
@@ -25,6 +26,7 @@ object rationalStuff {
 			new Rational(numer * that.denom - that.numer * denom,
 				denom * that.denom)
 		override def toString = "" + numer + "/" + denom
+		def square = new Rational(numer*numer, denom*denom)
 	}
 	val top = 12
 	val bottom = 8
