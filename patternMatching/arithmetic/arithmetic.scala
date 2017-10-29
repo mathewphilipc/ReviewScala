@@ -1,6 +1,13 @@
 object arithmetic {
 	def main(args: Array[String]) = {
 		println("Let's implement arithmetic expressions")
+		println("What is 5 + 7?")
+		def five = new Number(5)
+		def seven = new Number(7)
+		println("The first term evaluates to " + eval(five))
+		println("The second term evaluates to " + eval(seven))
+		def fivePlusSeven = eval(new Sum(five, seven))
+		println("Their sum evaluates to " + fivePlusSeven)
 	}
 
 	abstract class Expr {
@@ -28,6 +35,8 @@ object arithmetic {
 	}
 
 	def eval(e: Expr): Int = {
-		5
+		if (e.isNumber) e.numValue
+		else if (e.isSum) eval(e.leftOp) + eval(e.rightOp)
+		else throw new Exception("unrecognized expression")
 	}
 }
