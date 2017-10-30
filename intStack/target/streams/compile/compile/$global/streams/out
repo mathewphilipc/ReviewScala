@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/mathew/ScalaReview/intStack/intStack.scala:14:23: not found: type error[0m
+[0m[[0m[31merror[0m] [0m[0m		def top = throw new error("EmptyStack.top")[0m
+[0m[[0m[31merror[0m] [0m[0m		                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mathew/ScalaReview/intStack/intStack.scala:15:23: not found: type error[0m
+[0m[[0m[31merror[0m] [0m[0m		def pop = throw new error("EmptyStack.pop")[0m
+[0m[[0m[31merror[0m] [0m[0m		                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
