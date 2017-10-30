@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/mathew/ScalaReview/genericTypes/variance/variance.scala:24:14: ':' expected but '>:' found.[0m
+[0m[[0m[31merror[0m] [0m[0m		def push(B >: A)(x: B): Stack[B] = new NonEmptyStack(x, this)[0m
+[0m[[0m[31merror[0m] [0m[0m		           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mathew/ScalaReview/genericTypes/variance/variance.scala:28:2: identifier expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m	}[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
