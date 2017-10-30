@@ -1,6 +1,6 @@
 object project {
 	def main(args: Array[String]) {
-		println("We implement bubble sort on finite lists of integers")
+		println("We implement insertion sort on finite lists of integers")
 		println("We start with the list List(17,16,5,3,18)")
 		var unsorted = List(17, 16, 5, 3, 18)
 		var sorted = isort(unsorted)
