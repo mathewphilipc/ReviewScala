@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/home/mathew/ScalaReview/lists/mergeSort/mergeSort.scala:6:22: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : List[Int][0m
+[0m[[0m[31merror[0m] [0m[0m required: (?, ?) => Boolean[0m
+[0m[[0m[31merror[0m] [0m[0m		val sorted = msort(testList)[0m
+[0m[[0m[31merror[0m] [0m[0m		                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
